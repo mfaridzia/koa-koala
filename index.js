@@ -28,7 +28,7 @@ render(app, {
   debug: false // true
 });
 
-// routing with named routes & Template
+// routing with named routes and template
 router.get("koala", "/", ctx => {
   let koala_attributes = [];
   koala_attributes.push({
